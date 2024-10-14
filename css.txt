@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.small-text {
+    font-size: 14px;
+    color: #555;
+}
+
+.welcome-text, .editkaro-text {
+    font-size: 28px;
+    color: #333;
+}
+
+.description-text {
+    margin: 20px 0;
+}
+
+.our-work {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-us {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.about-description {
+    margin: 10px 0 20px;
+}
+
+.services-box {
+    margin: 40px 0;
+}
+
+.services-title {
+    font-size: 24px;
+}
+
+.service-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.service-item:hover {
+    background-color: #f0f0f0;
+}
+
+.service-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.portfolio-title {
+    font-size: 24px;
+    margin: 40px 0 20px;
+}
+
+.category-buttons {
+    margin: 20px 0;
+}
+
+.category-button {
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.portfolio-box {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portfolio-image {
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.video-container {
+    display: none; /* Hidden initially */
+    margin-top: 20px;
+}
+
+.contact-us {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+.contact-description {
+    margin: 10px 0 20px;
+}
+
+.contact-rectangles {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.contact-rectangle {
+    width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-button {
+    display: block;
+    margin: 5px 0;
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-button:hover {
+    background: #0056b3;
+}

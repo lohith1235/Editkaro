@@ -1,0 +1,16 @@
+function toggleActive(element) {
+    const description = element.querySelector('.service-description');
+    description.classList.toggle('active');
+}
+
+function playVideo(videoFile) {
+    const videoPlayer = document.getElementById('videoPlayer');
+    const videoSource = document.getElementById('videoSource');
+    videoSource.src = videoFile;
+    videoPlayer.load();
+    document.getElementById('videoContainer').style.display = 'block';
+}
+
+function showContactForm() {
+    alert('Contact form is not implemented yet.');
+}
